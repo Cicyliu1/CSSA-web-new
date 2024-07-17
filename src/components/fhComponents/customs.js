@@ -102,10 +102,10 @@ export default function Customs() {
                         mb: 4,
                     }}
                 >
-                    <Typography variant="h3" component="h1" gutterBottom sx={{ lineHeight: 1.8 }}>
+                    <Typography variant="h3" component="h1" gutterBottom sx={{ lineHeight: 1.8, fontSize: { xs: '1.5rem', md: '3rem' } }}>
                         关于海关
                     </Typography>
-                    <Typography variant="h6" component="p" sx={{ lineHeight: 1.8 }}>
+                    <Typography variant="h6" component="p" sx={{ lineHeight: 1.8, fontSize: { xs: '1rem', md: '1.5rem' } }}>
                         飞机落地后，通过了海关的检查才是真正入境美国。
                     </Typography>
                 </Box>
